@@ -1,0 +1,17 @@
+import wollok.game.*
+import auto.*
+
+program miPrimerWollokGame {
+	// límites del tablero de juego
+	game.width(14)
+	game.height(8)
+
+	// fondo del tablero de juego
+	game.boardGround("empedrado.jpg")
+	
+	// agregamos a nuestro objeto auto
+	game.addVisual(auto)
+	
+	// que arranque el juego!
+	game.start()
+}
